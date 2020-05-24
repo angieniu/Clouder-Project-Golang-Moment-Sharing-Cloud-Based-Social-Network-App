@@ -10,5 +10,9 @@ jobs:
       - run: |
           docker build -t angieniu/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push /around
+          docker push angieniu/around
+
+
+
+
 
